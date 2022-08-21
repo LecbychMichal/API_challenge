@@ -9,4 +9,9 @@ class CountryListSerializer(serializers.ModelSerializer):
         model = Countries
         fields = ['name', 'countryCode', 'id', 'createdAt']
 
+class CountryDetailSerializer(serializers.ModelSerializer):
 
+
+    class Meta:
+        model = Countries
+        fields = ['name', 'countryCode', 'id', 'createdAt']
