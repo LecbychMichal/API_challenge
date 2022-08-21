@@ -1,0 +1,2 @@
+Personal notes: The implementation was quite simple, I did not encounter any problems during development. I've done API projects with the Django REST framework in the past, but this was the first time I'd seen the openapi documentation.
+The only thing I wasn't quite sure how to properly test the pagination.
